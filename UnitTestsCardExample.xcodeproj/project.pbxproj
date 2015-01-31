@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		540B34B31A7D3B6200AA2DD5 /* CardTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 540B34B21A7D3B6200AA2DD5 /* CardTestCase.m */; };
 		542AF41E1A78AAED00D8BFBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 542AF41D1A78AAED00D8BFBE /* main.m */; };
 		542AF4211A78AAED00D8BFBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 542AF4201A78AAED00D8BFBE /* AppDelegate.m */; };
 		542AF4241A78AAED00D8BFBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542AF4231A78AAED00D8BFBE /* ViewController.m */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		540B34B21A7D3B6200AA2DD5 /* CardTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardTestCase.m; sourceTree = "<group>"; };
 		542AF4181A78AAED00D8BFBE /* UnitTestsCardExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestsCardExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		542AF41C1A78AAED00D8BFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		542AF41D1A78AAED00D8BFBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 			children = (
 				542AF4371A78AAEE00D8BFBE /* UnitTestsCardExampleTests.m */,
 				542AF4351A78AAEE00D8BFBE /* Supporting Files */,
+				540B34B21A7D3B6200AA2DD5 /* CardTestCase.m */,
 			);
 			path = UnitTestsCardExampleTests;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				542AF4381A78AAEE00D8BFBE /* UnitTestsCardExampleTests.m in Sources */,
+				540B34B31A7D3B6200AA2DD5 /* CardTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +448,7 @@
 				542AF43D1A78AAEE00D8BFBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		542AF43E1A78AAEE00D8BFBE /* Build configuration list for PBXNativeTarget "UnitTestsCardExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +457,7 @@
 				542AF4401A78AAEE00D8BFBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

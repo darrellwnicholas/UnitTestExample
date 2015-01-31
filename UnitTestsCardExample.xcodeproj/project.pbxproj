@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		540B34B31A7D3B6200AA2DD5 /* CardTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 540B34B21A7D3B6200AA2DD5 /* CardTestCase.m */; };
 		540B34B51A7D445C00AA2DD5 /* PlayingCardTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 540B34B41A7D445C00AA2DD5 /* PlayingCardTestCase.m */; };
+		540B34B71A7D72EF00AA2DD5 /* DeckTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 540B34B61A7D72EF00AA2DD5 /* DeckTestCase.m */; };
 		542AF41E1A78AAED00D8BFBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 542AF41D1A78AAED00D8BFBE /* main.m */; };
 		542AF4211A78AAED00D8BFBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 542AF4201A78AAED00D8BFBE /* AppDelegate.m */; };
 		542AF4241A78AAED00D8BFBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542AF4231A78AAED00D8BFBE /* ViewController.m */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		540B34B21A7D3B6200AA2DD5 /* CardTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardTestCase.m; sourceTree = "<group>"; };
 		540B34B41A7D445C00AA2DD5 /* PlayingCardTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardTestCase.m; sourceTree = "<group>"; };
+		540B34B61A7D72EF00AA2DD5 /* DeckTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeckTestCase.m; sourceTree = "<group>"; };
 		542AF4181A78AAED00D8BFBE /* UnitTestsCardExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestsCardExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		542AF41C1A78AAED00D8BFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		542AF41D1A78AAED00D8BFBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				542AF4351A78AAEE00D8BFBE /* Supporting Files */,
 				540B34B21A7D3B6200AA2DD5 /* CardTestCase.m */,
 				540B34B41A7D445C00AA2DD5 /* PlayingCardTestCase.m */,
+				540B34B61A7D72EF00AA2DD5 /* DeckTestCase.m */,
 			);
 			path = UnitTestsCardExampleTests;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				540B34B51A7D445C00AA2DD5 /* PlayingCardTestCase.m in Sources */,
+				540B34B71A7D72EF00AA2DD5 /* DeckTestCase.m in Sources */,
 				540B34B31A7D3B6200AA2DD5 /* CardTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

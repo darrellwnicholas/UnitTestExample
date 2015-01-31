@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		540B34B31A7D3B6200AA2DD5 /* CardTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 540B34B21A7D3B6200AA2DD5 /* CardTestCase.m */; };
+		540B34B51A7D445C00AA2DD5 /* PlayingCardTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 540B34B41A7D445C00AA2DD5 /* PlayingCardTestCase.m */; };
 		542AF41E1A78AAED00D8BFBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 542AF41D1A78AAED00D8BFBE /* main.m */; };
 		542AF4211A78AAED00D8BFBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 542AF4201A78AAED00D8BFBE /* AppDelegate.m */; };
 		542AF4241A78AAED00D8BFBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542AF4231A78AAED00D8BFBE /* ViewController.m */; };
 		542AF4271A78AAED00D8BFBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542AF4251A78AAED00D8BFBE /* Main.storyboard */; };
 		542AF4291A78AAED00D8BFBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542AF4281A78AAED00D8BFBE /* Images.xcassets */; };
 		542AF42C1A78AAED00D8BFBE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 542AF42A1A78AAED00D8BFBE /* LaunchScreen.xib */; };
-		542AF4381A78AAEE00D8BFBE /* UnitTestsCardExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 542AF4371A78AAEE00D8BFBE /* UnitTestsCardExampleTests.m */; };
 		542AF4441A78AB9E00D8BFBE /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 542AF4431A78AB9E00D8BFBE /* Card.m */; };
 		542AF4471A78ACB600D8BFBE /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 542AF4461A78ACB600D8BFBE /* PlayingCard.m */; };
 		542AF44A1A78AF4C00D8BFBE /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 542AF4491A78AF4C00D8BFBE /* Deck.m */; };
@@ -33,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		540B34B21A7D3B6200AA2DD5 /* CardTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardTestCase.m; sourceTree = "<group>"; };
+		540B34B41A7D445C00AA2DD5 /* PlayingCardTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardTestCase.m; sourceTree = "<group>"; };
 		542AF4181A78AAED00D8BFBE /* UnitTestsCardExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestsCardExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		542AF41C1A78AAED00D8BFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		542AF41D1A78AAED00D8BFBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,7 +46,6 @@
 		542AF42B1A78AAED00D8BFBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		542AF4311A78AAEE00D8BFBE /* UnitTestsCardExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestsCardExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		542AF4361A78AAEE00D8BFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		542AF4371A78AAEE00D8BFBE /* UnitTestsCardExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitTestsCardExampleTests.m; sourceTree = "<group>"; };
 		542AF4421A78AB9E00D8BFBE /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		542AF4431A78AB9E00D8BFBE /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		542AF4451A78ACB600D8BFBE /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
@@ -120,9 +120,9 @@
 		542AF4341A78AAEE00D8BFBE /* UnitTestsCardExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				542AF4371A78AAEE00D8BFBE /* UnitTestsCardExampleTests.m */,
 				542AF4351A78AAEE00D8BFBE /* Supporting Files */,
 				540B34B21A7D3B6200AA2DD5 /* CardTestCase.m */,
+				540B34B41A7D445C00AA2DD5 /* PlayingCardTestCase.m */,
 			);
 			path = UnitTestsCardExampleTests;
 			sourceTree = "<group>";
@@ -264,7 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				542AF4381A78AAEE00D8BFBE /* UnitTestsCardExampleTests.m in Sources */,
+				540B34B51A7D445C00AA2DD5 /* PlayingCardTestCase.m in Sources */,
 				540B34B31A7D3B6200AA2DD5 /* CardTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
